@@ -1,2 +1,12 @@
+[project]
+name = "clubtrack"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "Flask>=3.1,<4",
+    "python-dotenv>=1.0,<2",
+    "requests>=2.32,<3",
+]
+
 [tool.vercel]
 entrypoint = "index:app"
